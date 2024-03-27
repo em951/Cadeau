@@ -1,3 +1,4 @@
 [build]
-  command = "npm run build" # Commande de construction de votre projet
-  publish = "Cadeau/dist" # Dossier à publier sur Netlify (peut être 'dist', 'public', ou autre selon votre configuration)
+  base = "/"  # Répertoire de base où se trouvent vos fichiers sources
+  command = "npm run build"  # Commande pour construire votre site
+  publish = "dist"    # Répertoire de publication des fichiers générés
