@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build" # Commande de construction de votre projet
+  publish = "dist" # Dossier à publier sur Netlify (peut être 'dist', 'public', ou autre selon votre configuration)
