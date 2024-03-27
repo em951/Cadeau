@@ -17,15 +17,10 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'], // Loader pour les fichiers CSS
       },
-    ],
-  },
-  module: {
-    rules: [
       {
         test: /\.html$/,
         use: ['html-loader'],
       },
     ],
   },
-  
 };
