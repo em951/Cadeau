@@ -1,0 +1,84 @@
+/* Styles pour la barre de navigation */
+
+.uk-navbar-nav > li > a:hover {
+    background-color: #beb6b9; /* Couleur de fond rose plus clair au survol */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px;
+}
+
+#accueil {
+    background-image: linear-gradient(to top right, #ff66c4, #ffde59); /* Dégradé de couleur de gauche à droite */    
+    background-size: cover; /* Ajuste la taille de l'image pour remplir l'élément */
+    text-align: center;
+    height: calc(100vh - 60px); /* La hauteur de la fenêtre visible moins la hauteur de la barre de navigation */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+#welcome {
+    font-family: "Ojuju", sans-serif;
+    color: rgb(255, 243, 243);
+    font-size: 4em;
+    position: relative;
+}
+
+#clic {
+    font-family: "Ojuju", sans-serif;
+    color: rgb(255, 243, 243);
+    font-size: 4em;
+    position: relative;
+}
+
+
+/* Page Swap.html  */
+
+.letter {
+  width: 60%; /* Ajustez la largeur selon vos besoins */
+  height: 70vh; /* Utilisez une hauteur relative pour couvrir presque toute la page */
+  margin: 5vh auto; /* Centrez verticalement et horizontalement */
+  border: 1px solid #000;
+  background-image: linear-gradient(to top right, #c5dce7, #a0c4d4, rgb(85, 211, 203)); /* Dégradé de couleur de gauche à droite */    
+  background-position: center; /* Centrer l'image de fond */
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  padding: 20px; 
+}
+
+
+.content {
+  padding-top: 20px;
+}
+
+.content h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.7em;
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 2.8;
+}
+
+.signature {
+  height: 5vh;
+  color: #000;
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+  text-align: center;
+}
+  
+  .message-content{
+  text-align: center;
+}
+
+.uk-panel{
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.uk-card {
+ border-style:groove;
+
+}
