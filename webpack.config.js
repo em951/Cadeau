@@ -2,7 +2,10 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    swap: './js/swap.js',
+    accueil: './Cadeau/accueil.html', // Page principale
+    swap: './Cadeau/swap.html', // Autre page
+    main: './Cadeau/js/swap.js', // Fichier JavaScript principal
+    styles: './Cadeau/assets/css/swap.css', // Fichier CSS principal
   },
   output: {
     path: path.resolve(__dirname, 'Cadeau/dist'), // Répertoire de sortie principal
@@ -12,13 +15,8 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader'], // Loader pour les fichiers CSS
       },
     ],
-  },
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-    },
   },
 };
