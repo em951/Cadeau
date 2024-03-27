@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    swap: './Cadeau/js/swap.js',
+    swap: './js/swap.js',
   },
   output: {
     path: path.resolve(__dirname, 'Cadeau/dist'), // Répertoire de sortie principal
