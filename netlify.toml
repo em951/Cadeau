@@ -1,4 +1,0 @@
-[build]
-  base = "/"  # Répertoire de base où se trouvent vos fichiers sources
-  command = "npm run build"  # Commande pour construire votre site
-  publish = "dist"    # Répertoire de publication des fichiers générés
