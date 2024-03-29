@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    accueil: './accueil.html', // Page principale
+    accueil: './index.html', // Page principale
     swap: './swap.html', // Autre page
     main: './js/swap.js', // Fichier JavaScript principal
     styles: './assets/css/swap.css', // Fichier CSS principal
